@@ -31,7 +31,6 @@ public class Config {
             }
             reader.close();
         } catch (FileNotFoundException e) {
-            // Конфігураційний файл відсутній — нічого не робимо
         } catch (IOException e) {
             System.out.println("Помилка при завантаженні конфігурації.");
         }
